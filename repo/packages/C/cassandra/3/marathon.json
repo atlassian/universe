@@ -9,7 +9,7 @@
   ],
   "uris": [
     "https://s3.amazonaws.com/hcms-vpc-files/cassandra-mesos-3.tar.gz",
-    "https://downloads.mesosphere.com/java/jre-7u76-linux-x64.tar.gz"
+    "https://downloads.mesosphere.io/java/jre-8u65-linux-x64.tar.gz"
   ],
   "healthChecks": [
     {
