@@ -51,6 +51,8 @@
     ,"CASSANDRA_FRAMEWORK_MESOS_ROLE": "{{cassandra.framework.role}}"
     ,"CASSANDRA_DEFAULT_DC": "{{cassandra.dc.default-dc}}"
     ,"CASSANDRA_DEFAULT_RACK": "{{cassandra.dc.default-rack}}"
+    ,"CASSANDRA_JMX_LOCAL": "{{cassandra.local-jmx}}"
+    ,"CASSANDRA_JMX_NO_AUTHENTICATION": "{{cassandra.jmx-no-auth}}"
     ,"MESOS_AUTHENTICATE": "{{cassandra.framework.authentication.enabled}}"
 {{#cassandra.dc.external-dcs}}
     ,"CASSANDRA_EXTERNAL_DC_{{name}}": "{{url}}"

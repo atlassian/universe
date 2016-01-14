@@ -130,6 +130,16 @@
           "type": "string",
           "default": "."
         },
+        "local-jmx": {
+          "description": "whether to use localhost (only) jmx or not",
+          "type": "boolean",
+          "default": true
+        },
+        "jmx-no-auth": {
+          "description": "whether to turn off jmx authentication",
+          "type": "boolean",
+          "default": false
+        },
         "resources": {
           "description": "Cassandra Server Resources Configuration Properties",
           "type": "object",
